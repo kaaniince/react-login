@@ -1,8 +1,21 @@
-# React + Vite
+# Signup Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This signup form was created using React, Vite, Yup for schema validation, and Formik (with useFormik) for form handling.
 
-Currently, two official plugins are available:
+### 1. Valid Input Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This screenshot shows the signup form with correctly filled fields and no validation errors.
+
+![Valid Input Screenshot](images/normal.png)
+
+### 2. Invalid Email Format Screenshot
+
+This screenshot shows an error message for an invalid email format entered in the email field.
+
+![Invalid Email Format Screenshot](images/error1.png)
+
+### 3. Password Confirmation Mismatch Screenshot
+
+This screenshot displays a validation error for the password confirmation field when the confirmed password does not match the original password.
+
+![Password Confirmation Mismatch Screenshot](images/error2.png)
